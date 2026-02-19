@@ -80,3 +80,15 @@
 //     w--;
 // }
 
+
+
+/**
+ * ------- Break --------
+ */
+for(let bre = 0; bre < 10; bre++){
+    console.log(bre);
+    if(bre >= 6){
+        break;
+    }
+}
+console.log('life after break up');
