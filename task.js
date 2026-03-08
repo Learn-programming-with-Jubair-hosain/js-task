@@ -235,10 +235,14 @@
 
 
 
-for(let odd = 1; odd <= 30; odd++){
-    console.log(odd);
-    if(odd >= 15){
-        break;
-    }
-}
+// for(let odd = 1; odd <= 30; odd++){
+//     console.log(odd);
+//     if(odd >= 15){
+//         break;
+//     }
+// }
 
+let number = [10, 20, 30, 40, 50];
+for(let i = 0; i <= number.length; i++){
+    console.log(number[i]);
+}
