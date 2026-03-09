@@ -6,21 +6,21 @@
 // }
 
 
-//DOT NOTATION//
+// DOT NOTATION//
 
 // console.log(phone);
 // console.log(phone.brand);
 // const price = phone.price;
 // console.log(price);
 
-//BRACKET NOTATION//
+// BRACKET NOTATION//
  
 // const company = phone['brand']
 // console.log(company);
 // console.log(phone['brand']);
 // console.log(phone['condition']);
 
-//Change value//
+// Change value//
 // phone.price = 6000;
 // phone['brand'] = 'samsung';
 // console.log(phone);
@@ -36,7 +36,7 @@
 // let keys = Object.keys(computer);
 // console.log(keys);
 
-// VALUES //
+// // VALUES //
 let laptop = {
     brand: 'hp',
     price: 4000,
@@ -61,6 +61,6 @@ let school = {
 }
 delete school.unique.result.merit;
 console.log(school);
-// console.log(school.unique.result.gpa);
+console.log(school.unique.result.gpa);
 
 
